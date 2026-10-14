@@ -1,0 +1,12 @@
+{
+  "name": "career-optimizer",
+  "interface": { "displayName": "Career Optimizer by jappelbaum20" },
+  "plugins": [
+    {
+      "name": "career-optimizer",
+      "source": { "source": "local", "path": "./plugins/career-optimizer" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

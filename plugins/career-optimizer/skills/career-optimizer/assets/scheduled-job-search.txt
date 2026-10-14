@@ -1,0 +1,13 @@
+Use the installed Career Optimizer skill to run my agreed job-search digest.
+
+Career HQ: [verified Notion URL]
+Task identity: [host task ID if available; otherwise verified task name]
+Scope: [new roles only / roles plus upcoming application actions]
+Cadence and timezone: [confirmed daily/weekdays/weekly day, local time, IANA timezone]
+Search limits: [maximum plausible postings to screen and maximum matches to report]
+Notification preference: [meaningful changes only / every-run digest]
+Authorized storage: [save search results and run receipts to this HQ / explicitly read-only]
+
+Read the HQ resource map and current Profile each run. Follow the skill's job-search-and-scheduling workflow. Use only the current confirmed targets and hard filters; do not depend on chat memory or local files. Verify live postings, distinguish unknowns from mismatches, deduplicate against Opportunities and preserve user-maintained application states. Record source coverage and partial failures honestly; do not advance the last complete cutoff after incomplete coverage. Use the run ledger to recover retries without duplicate records or repeated unchanged notifications.
+
+Return the most useful matching roles with source links, brief fit evidence, material unknowns and verified deadlines, plus agreed upcoming actions. If configured for meaningful changes only, stay quiet when there is nothing actionable and the host supports it. Report connection failures distinctly from no matches. Never apply, send outreach, change public profiles or accept offers. Respect paused/off state. If a required connection or skill is unavailable, report the specific blocker rather than inventing a result.

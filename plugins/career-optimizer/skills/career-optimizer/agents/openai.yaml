@@ -1,0 +1,6 @@
+interface:
+  display_name: "Career Optimizer"
+  short_description: "Career coaching, Notion setup and recurring job searches"
+  default_prompt: "Use $career-optimizer to set up my career workspace and guide me through the first intake step."
+policy:
+  allow_implicit_invocation: true

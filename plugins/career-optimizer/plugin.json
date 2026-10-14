@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "career-optimizer",
+  "version": "3.0.0",
+  "description": "Personal career coaching with guided intake, a private Notion databank and recurring job-search workflows.",
+  "author": { "name": "jappelbaum20", "url": "https://github.com/jappelbaum20" },
+  "homepage": "https://github.com/jappelbaum20/career-optimizer",
+  "repository": "https://github.com/jappelbaum20/career-optimizer",
+  "keywords": ["career", "jobs", "notion", "resume", "interviews"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Career Optimizer",
+        "shortDescription": "Career coaching, Notion setup and job-search digests",
+        "longDescription": "Start with a guided intake, build your own Notion Career HQ, and get help with CVs, applications, interviews and offers. Configure daily or weekly job searches using your ChatGPT account's scheduling tools. Connect Notion separately; availability depends on your account and workspace.",
+        "developerName": "jappelbaum20",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://github.com/jappelbaum20/career-optimizer",
+        "defaultPrompt": [
+          "Set up my Career Optimizer step by step, including my private Notion Career HQ.",
+          "Find jobs matching my profile and help me configure a weekly digest.",
+          "Tailor my CV and prepare me for this job interview."
+        ]
+      }
+    }
+  }
+}
